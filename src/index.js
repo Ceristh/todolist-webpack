@@ -1,6 +1,6 @@
-import { saludar } from "./js/componentes.js";
 import './styles.css';
+import { Todo } from './classes/todo.class.js';
 
-const nombre = 'Ceristh';
+const tarea = new Todo('Aprender Javascript');
 
-saludar(nombre);
+console.log(tarea);

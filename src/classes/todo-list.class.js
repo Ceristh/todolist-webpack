@@ -18,6 +18,6 @@ export class TodoList {
         }
     }
     eliminarCompletados(id) {
-        
+        this.todos = this.todos.filter( todo => !todo.completado)
     }
 }

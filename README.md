@@ -1,15 +1,24 @@
 # Webpack Todo List.
 
 ## Notas:
-Recuerden reconstruir los módulos de Node
+installar modulos de node
 ```
 npm install
 ```
 
-Y para construir el build, recueren:
+Y para construir el build:
 ```
 npm run build
 ```
+
+para ver projecto:
+```
+npm run server
+```
+
+## Información paginas referencia:
+[filter, ocupado en eliminacion de un todo](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+
 
 + Funcion de flecha
 + const (constantes)

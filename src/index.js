@@ -10,8 +10,8 @@ const tarea = new Todo('Aprender Javascript!!');
 
 todoList.nuevoTodo( tarea );
 
-tarea.completado = true;
+// tarea.completado = false;
 
-console.log( todoList );
+// console.log( todoList );
 
 crearTodoHtml( tarea );
